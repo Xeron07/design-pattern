@@ -12,8 +12,8 @@ Strategy lets the algorithm vary independently of clients that use it.
 
 ----
 1.  Identify the aspects of your application that vary and separate them from what stays the same.
-2.  program to an **_interface_** not an implementation.
-3.  Favor **compose** over **inheritance**. [^1]
+2.  Program to an **_interface_** not an implementation.
+3.  Favor **compose**[^1] over **inheritance**. 
 
 
 
