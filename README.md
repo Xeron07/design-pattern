@@ -1,6 +1,6 @@
 Design Pattern
 ===
-We are using the Head Fast Design Pattern book as a reference to explore much different design patterns and learn from them.
+We are using the Head Fast Design Pattern book as a reference to explore different design patterns and learn from them.
 
 ### Table Of Content
 ---
