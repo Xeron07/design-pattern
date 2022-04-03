@@ -8,8 +8,8 @@ public class MallardDuck extends Duck{
     public MallardDuck(String name, int size){
         this.name=name;
         this.size=size;
-        this.flyBehaviour=new FlyHigh();
-        this.quackBehaviour = new Quack();
+        this.setFlyBehaviour(new FlyHigh());
+        this.setQuackBehaviour(new Quack());
     }
 
 

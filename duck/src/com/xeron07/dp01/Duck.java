@@ -19,6 +19,14 @@ public class Duck {
         System.out.println(String.format("This is a %s with size of %d",this.name,this.size));
     }
 
+    public void setFlyBehaviour(FlyBehaviour flyBehaviour){
+        this.flyBehaviour=flyBehaviour;
+    }
+
+    public void setQuackBehaviour(QuackBehaviour quackBehaviour){
+        this.quackBehaviour=quackBehaviour;
+    }
+
     public void performQuack(){
         quackBehaviour.quack();
     }
@@ -26,6 +34,8 @@ public class Duck {
     public void performFly(){
         flyBehaviour.fly();
     }
+
+
 
 
 }
