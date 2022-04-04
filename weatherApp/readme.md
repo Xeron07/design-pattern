@@ -7,7 +7,7 @@ observer - defines a one-to-many dependency between objects so that when one obj
 ### Some Design principle
 
 ---
-```Strive for **loosely coupled**[^1] designs between objects that interact.```
+>Strive for **loosely coupled**[^1] designs between objects that interact.
 
 ### Project Description
 
